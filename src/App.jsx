@@ -80,7 +80,7 @@ function App() {
     setText(Editinfo.myText)
     setIsBtn(false)
     setTodoUpdate(Editinfo);
-    toast.error('Are you sure you want to update your text',{
+    toast.error('Want to update your text?',{
       position: "top-right",
       autoClose: 2000,
       hideProgressBar: false,
@@ -90,6 +90,7 @@ function App() {
       progress: undefined,
       theme: "dark",
     });
+    
     // todoUpdate(Deleteid)
   }
   let handleUpdate =(e)=>{
